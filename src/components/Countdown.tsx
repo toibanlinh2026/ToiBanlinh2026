@@ -52,7 +52,7 @@ export const Countdown = () => {
         <CountdownUnit value={timeLeft.seconds} label="Giây" />
       </div>
       <p className="font-bold text-white mt-6 text-lg md:text-xl text-center md:text-left drop-shadow-md tracking-wide">
-        đến ngày đóng <span className="text-brand-yellow">vòng đơn</span> Tôi Bản lĩnh 2026
+        đến ngày đóng <span className="text-brand-yellow">Vòng Đơn</span> Tôi Bản lĩnh 2026
       </p>
     </div>
   );

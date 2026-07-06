@@ -1,17 +1,17 @@
 import { useState } from 'react';
-import cardImage from '../../TBL_Avatar.png';
 import bgImage from '../../back2.png';
 import imgSoLoai from '../sơ loại.jpg';
 import imgTeamwork from '../teamwork.jpg';
 import imgBanKet from '../bán kết.jpg';
 import imgChungKet2 from '../chung kết 2.jpg';
+import vongdon from '../vdon.jpg'
 
 const rulesData = [
   { 
     id: 1, 
     title: 'Vòng Đơn', 
     date: '06/07 - 18/07/2026', 
-    image: cardImage,
+    image: vongdon,
     content: (
       <div className="space-y-3">
         <p><strong className="text-brand-yellow">Hình thức thi:</strong></p>
