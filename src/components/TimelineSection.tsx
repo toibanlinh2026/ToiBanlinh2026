@@ -40,7 +40,7 @@ export const TimelineSection = () => {
           {/* Vertical Center Line */}
           <div className="absolute top-0 bottom-0 left-1/2 w-0.5 bg-yellow-500/30 transform -translate-x-1/2"></div>
 
-          {timelineData.map((item, index) => {
+          {timelineData.map((item) => {
             const isLeft = item.side === 'left';
             
             return (

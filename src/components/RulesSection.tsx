@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import cardImage from '../../TBL_Avatar.png';
 import bgImage from '../../back2.png';
 import imgSoLoai from '../sơ loại.jpg';

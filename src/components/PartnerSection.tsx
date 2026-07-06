@@ -1,7 +1,7 @@
 import logo1 from '../Logo/Asset 1.png';
 import logo2 from '../Logo/Asset 2.png';
 import logo3 from '../Logo/Asset 3.png';
-import logo4 from '../Logo/[LC]Logo_HD.png';
+import logo4 from '../Logo/LC.png';
 import logo5 from '../Logo/logo tách nền.png';
 import logo6 from '../Logo/logopc1.png';
 
