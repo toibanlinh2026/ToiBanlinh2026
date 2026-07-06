@@ -3,7 +3,7 @@ import ttLogo from '../../tt.png';
 
 const navLinks = [
   { label: 'TÔI BẢN LĨNH', href: '#' },
-  { label: 'CLB THUYẾT TRÌNH', href: '#about' },
+  { label: 'GIỚI THIỆU', href: '#about' },
   { label: 'THỂ LỆ', href: '#rules' },
   { label: 'TIMELINE', href: '#timeline' },
   { label: 'PARTNER', href: '#partner' },
@@ -74,6 +74,18 @@ export const Navbar = () => {
           <span className={`block w-6 h-[2px] rounded-full transition-all duration-300 ${isScrolled || isMobileMenuOpen ? 'bg-brand-dark' : 'bg-white'} ${isMobileMenuOpen ? 'opacity-0' : 'opacity-100'}`} />
           <span className={`block w-6 h-[2px] rounded-full transition-all duration-300 ${isScrolled || isMobileMenuOpen ? 'bg-brand-dark' : 'bg-white'} ${isMobileMenuOpen ? '-rotate-45 -translate-y-[7px]' : ''}`} />
         </button>
+
+        {/* Desktop Register Button */}
+        <div className="hidden md:flex absolute right-4 md:right-8 items-center h-full">
+          <a 
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeZ1cU77T1xz1z8hqh2z9hEoBJFKb5kImu1nBfhaoTphXxKAA/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-brand-yellow text-brand-dark px-5 py-2 rounded-full font-bold text-sm transition-transform duration-300 transform hover:scale-105 shadow-[0_0_15px_rgba(255,205,106,0.3)] hover:shadow-[0_0_25px_rgba(255,205,106,0.5)]"
+          >
+            Đăng ký tham gia
+          </a>
+        </div>
       </div>
 
       {/* Mobile Dropdown Menu */}
@@ -93,6 +105,19 @@ export const Navbar = () => {
               {item.label}
             </a>
           ))}
+
+          {/* Mobile Register Button */}
+          <div className="pt-4 pb-2 mt-2 border-t border-gray-100 flex justify-center">
+            <a 
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeZ1cU77T1xz1z8hqh2z9hEoBJFKb5kImu1nBfhaoTphXxKAA/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-brand-yellow text-brand-dark px-8 py-3 rounded-full font-bold text-sm transition-transform duration-300 transform hover:scale-105 shadow-[0_0_15px_rgba(255,205,106,0.3)] hover:shadow-[0_0_25px_rgba(255,205,106,0.5)] w-full text-center uppercase tracking-wider"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Đăng ký tham gia
+            </a>
+          </div>
         </div>
       </div>
 

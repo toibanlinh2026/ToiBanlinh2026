@@ -28,9 +28,10 @@ export const AboutSection = () => {
           </p>
           
           <p className="text-gray-600 leading-relaxed text-lg text-justify">
-            Sau sự vắng bóng của Tôi Bản lĩnh 2025, cuộc thi sẽ tiếp tục quay trở lại với các bạn sinh viên trong năm 2026.  <br/>
+            Sau sự vắng bóng của Tôi Bản lĩnh 2025, cuộc thi sẽ tiếp tục quay trở lại với các bạn sinh viên trong năm 2026.  <br/></p>
+            <p className="text-gray-600 leading-relaxed text-lg text-justify">
             Với chủ đề KÉN, Ban tổ chức mong muốn các thí sinh sẽ nhìn sâu hơn lại chính bản thân mình. Nếu hôm nay bạn đang ở trong kén, đó không phải dấu hiệu của sự tụt lại, mà là khoảnh khắc chuẩn bị cho một lần cất cánh. Và biết đâu, từ những chiếc kén im lặng ấy, đến một ngày, không chỉ một con bướm bay lên - mà là cả một chân trời mới.
-          </p>
+            </p>
         </div>
 
       </div>
