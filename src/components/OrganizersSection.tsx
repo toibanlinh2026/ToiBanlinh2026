@@ -10,6 +10,7 @@ import img8 from '../btc/IMAGE 8.png';
 import img9 from '../btc/IMAGE 9.png';
 import img10 from '../btc/IMAGE 10.png';
 import img11 from '../btc/IMAGE 11.png';
+import img111 from '../btc/IMAGE 111.png';
 import img12 from '../btc/IMAGE 12.png';
 import img13 from '../btc/IMAGE 13.png';
 import img14 from '../btc/IMAGE 14.png';
@@ -26,6 +27,7 @@ const organizers = [
   { id: 9, img: img9 },
   { id: 10, img: img10 },
   { id: 11, img: img11 },
+  { id: 111, img: img111 },
   { id: 12, img: img12 },
   { id: 13, img: img13 },
   { id: 14, img: img14 },
