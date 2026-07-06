@@ -4,6 +4,7 @@ import logo3 from '../Logo/Asset 3.png';
 import logo4 from '../Logo/LC.png';
 import logo5 from '../Logo/logo tách nền.png';
 import logo6 from '../Logo/logopc1.png';
+import logo7 from '../Logo/SAT&JUNIOR-1.png'
 
 const partners = [
   { id: 1, name: 'Partner 1', img: logo1 },
@@ -12,6 +13,7 @@ const partners = [
   { id: 4, name: 'Partner 4', img: logo4 },
   { id: 5, name: 'Partner 5', img: logo5 },
   { id: 6, name: 'Partner 6', img: logo6 },
+  { id: 7, name: 'Partner 7', img: logo7 },
 ];
 
 export const PartnerSection = () => {
