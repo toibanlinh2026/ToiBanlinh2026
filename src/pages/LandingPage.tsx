@@ -17,7 +17,7 @@ export const LandingPage = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="w-full h-screen relative overflow-hidden">
+      <section className="w-full min-h-screen relative overflow-hidden flex flex-col">
         {/* Mobile Background */}
         <div 
           className="absolute inset-0 md:hidden bg-cover bg-center bg-no-repeat z-0"
@@ -29,7 +29,7 @@ export const LandingPage = () => {
           style={{ backgroundImage: `url('${bgDesktop}')` }}
         />
 
-        <div className="relative z-10 flex flex-col h-full max-w-7xl mx-auto px-6 md:px-12 lg:px-24 pt-24 justify-center">
+        <div className="relative z-10 flex flex-col flex-grow max-w-7xl mx-auto px-6 md:px-12 lg:px-24 pt-32 lg:pt-48 pb-16 justify-center w-full">
           <main className="max-w-2xl">
             <HeroContent />
             <div className="mt-12">

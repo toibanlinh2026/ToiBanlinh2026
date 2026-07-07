@@ -49,7 +49,7 @@ export const Navbar = () => {
         </div>
         
         {/* Desktop Menu */}
-        <nav className="hidden md:flex gap-8 lg:gap-12 text-sm font-medium">
+        <nav className="hidden xl:flex gap-8 lg:gap-12 text-sm font-medium">
           {navLinks.map((item) => (
             <a 
               key={item.label}
@@ -67,7 +67,7 @@ export const Navbar = () => {
 
         {/* Mobile Hamburger Button */}
         <button 
-          className="absolute right-4 md:hidden flex flex-col justify-center gap-[5px] w-6 h-full items-center focus:outline-none"
+          className="absolute right-4 xl:hidden flex flex-col justify-center gap-[5px] w-6 h-full items-center focus:outline-none"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
           <span className={`block w-6 h-[2px] rounded-full transition-all duration-300 ${isScrolled || isMobileMenuOpen ? 'bg-brand-dark' : 'bg-white'} ${isMobileMenuOpen ? 'rotate-45 translate-y-[7px]' : ''}`} />
@@ -76,7 +76,7 @@ export const Navbar = () => {
         </button>
 
         {/* Desktop Register Button */}
-        <div className="hidden md:flex absolute right-4 md:right-8 items-center h-full">
+        <div className="hidden xl:flex absolute right-4 xl:right-8 items-center h-full">
           <a 
             href="https://docs.google.com/forms/d/e/1FAIpQLSeZ1cU77T1xz1z8hqh2z9hEoBJFKb5kImu1nBfhaoTphXxKAA/viewform"
             target="_blank"
@@ -90,7 +90,7 @@ export const Navbar = () => {
 
       {/* Mobile Dropdown Menu */}
       <div 
-        className={`md:hidden absolute top-full left-0 w-full bg-white transition-all duration-300 overflow-hidden ${
+        className={`xl:hidden absolute top-full left-0 w-full bg-white transition-all duration-300 overflow-hidden ${
           isMobileMenuOpen ? 'max-h-[500px] border-t border-gray-100 shadow-xl' : 'max-h-0 shadow-none'
         }`}
       >

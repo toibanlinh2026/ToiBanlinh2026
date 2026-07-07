@@ -1,7 +1,7 @@
 export const HeroContent = () => {
   return (
     <>
-      <h2 className="text-5xl md:text-7xl lg:text-[90px] font-black leading-tight tracking-tight mb-2 uppercase text-glow">
+      <h2 className="text-5xl md:text-7xl lg:text-[90px] mt-10 md:mt-0 font-black leading-tight tracking-tight mb-2 uppercase text-glow">
         Tôi Bản Lĩnh
       </h2>
       <h3 className="text-5xl md:text-7xl lg:text-[90px] font-black leading-tight tracking-tight mb-8">

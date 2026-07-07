@@ -45,7 +45,7 @@ export const Countdown = () => {
 
   return (
     <div className="flex flex-col items-center md:items-start mt-auto pb-12">
-      <div className="flex gap-4 md:gap-6">
+      <div className="flex flex-wrap justify-center md:justify-start gap-4 md:gap-6">
         <CountdownUnit value={timeLeft.days} label="Ngày" />
         <CountdownUnit value={timeLeft.hours} label="Giờ" />
         <CountdownUnit value={timeLeft.minutes} label="Phút" />
